@@ -2,7 +2,7 @@
 
 export default function Navbar() {
     return (
-        <nav className='nav navbar-expand-sm'>
+        <nav className='nav navbar-expand-sm bg-light'>
 
             <div className="container-fluid navbar-ul">
                 
