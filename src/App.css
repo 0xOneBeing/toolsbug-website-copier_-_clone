@@ -1,0 +1,28 @@
+.navbar-ul {
+  /* display: flex; */
+  font-weight: bold;
+}
+
+.brand {
+  float: left;
+}
+
+.about-contact {
+  float: right;
+}
+
+.seo {
+  color: cyan;
+}
+
+.scrappers {
+  color: lightgrey;
+}
+
+.tools, .about-contact > .nav-item > .nav-link {
+  color: #000000;
+}
+
+.fa-bug, .bug {
+  color: yellow;
+}
