@@ -16,7 +16,7 @@ export default function Main() {
                         <form className="form">
                             <div className="row input-area">
                                 <div className="col-sm-10 col-md-10">
-                                    <input className="form-control enterURL" type="text" placeholder="Enter URL" autoFocus />
+                                    <input className="form-control enterURL" type="text" placeholder="Enter URL" autoFocus required />
                                 </div>
                                 <div className="col-sm-2 col-md-2">
                                     <button className="form-control btn btn-warning go" type='button'><i className="fas fa-arrow-right"></i></button>
