@@ -1,8 +1,8 @@
 .navbar-ul {
   /* display: flex; */
   font-size: 20px;
-  font-weight: bold;
-  padding: 15px auto;
+  padding: 10px 50px !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .brand {
@@ -14,19 +14,21 @@
 }
 
 .seo {
-  color: cyan;
+  color: rgb(20, 195, 195);
 }
 
 .scrappers {
-  color: lightgrey;
+  color: grey;
 }
 
 .tools, .about-contact > .nav-item > .nav-link {
   color: #000000;
+  font-weight: bold;
 }
 
 .fa-bug, .bug, .free {
   color: yellow;
+  font-weight: bold;
 }
 
 .title {
