@@ -28,3 +28,42 @@
 .fa-bug, .bug, .free {
   color: yellow;
 }
+
+.title {
+  font-weight: bold;
+}
+
+.left, .center, .right {
+  border: 1px solid transparent;
+}
+
+.center {
+  margin-top: 35px !important;
+}
+
+.stats {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 7px;
+  padding: 40px;
+  margin: 20px;
+}
+
+.stats > small {
+  font-size: 10px;
+  padding: 15px;
+}
+
+/* .form {
+  margin-top: 40px;
+} */
+
+.enterURL {
+  color: #000000 !important;
+}
+.go {
+  width: 20%;
+}
+
+.selectType {
+  margin-top: 20px;
+}
