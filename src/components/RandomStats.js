@@ -1,9 +1,14 @@
 
+function threeDigitRandomNumber(min, max) {
+    return Math.floor(Math.random() * 1000);
+}
 
 export default function RandomStats() {
     return (
         <>
-            <p>23,401</p>
+            <p>
+                {threeDigitRandomNumber()},{threeDigitRandomNumber()}
+            </p>
         </>
     )
 }
